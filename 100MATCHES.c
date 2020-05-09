@@ -229,7 +229,9 @@ int main(int argc, char **argv)
 
 	//декларация
 	window = gtk_window_new (GTK_WINDOW_TOPLEVEL);
-	sum = gtk_label_new ("100");
+        gtk_window_set_title(GTK_WINDOW(window), "100 MATCHES");
+
+        sum = gtk_label_new ("100");
 	grid = gtk_grid_new ();
 
 
