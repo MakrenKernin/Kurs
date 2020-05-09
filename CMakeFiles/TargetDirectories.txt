@@ -1,0 +1,3 @@
+/home/egor/kurs/CMakeFiles/rebuild_cache.dir
+/home/egor/kurs/CMakeFiles/100Matches.dir
+/home/egor/kurs/CMakeFiles/edit_cache.dir

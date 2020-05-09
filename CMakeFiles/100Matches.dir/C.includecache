@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/egor/kurs/100MATCHES.c
+gtk/gtk.h
+-
+string.h
+-
+stdlib.h
+-
+stdbool.h
+-
+stdio.h
+-
+time.h
+-
+
