@@ -35,7 +35,7 @@ void button1 (GtkButton *button, GtkLabel *sum)
 void button2 (GtkButton *button, GtkLabel *sum)
 {
 	int num = atoi(gtk_label_get_text(sum));
-	num -= 1;
+	num -= 2;
 	g_print("Я взял 2 спички\n Осталось %i спичек\n Твой ход\n",num);
 	bool Correct;
 	srand(time(0));
@@ -54,7 +54,7 @@ void button2 (GtkButton *button, GtkLabel *sum)
 void button3 (GtkButton *button, GtkLabel *sum)
 {
 	int num = atoi(gtk_label_get_text(sum));
-	num -= 1;
+	num -= 3;
 	g_print("Я взял 3 спички\n Осталось %i спичек\n Твой ход\n",num);
 	bool Correct;
 	srand(time(0));
@@ -73,7 +73,7 @@ void button3 (GtkButton *button, GtkLabel *sum)
 void button4 (GtkButton *button, GtkLabel *sum)
 {
 	int num = atoi(gtk_label_get_text(sum));
-	num -= 1;
+	num -= 4;
 	g_print("Я взял 4 спички\n Осталось %i спичек\n Твой ход\n",num);
 	bool Correct;
 	srand(time(0));
@@ -92,7 +92,7 @@ void button4 (GtkButton *button, GtkLabel *sum)
 void button5 (GtkButton *button, GtkLabel *sum)
 {
 	int num = atoi(gtk_label_get_text(sum));
-	num -= 1;
+	num -= 5;
 	g_print("Я взял 5 спичек\n Осталось %i спичек\n Твой ход\n",num);
 	bool Correct;
 	srand(time(0));
@@ -111,7 +111,7 @@ void button5 (GtkButton *button, GtkLabel *sum)
 void button6 (GtkButton *button, GtkLabel *sum)
 {
 	int num = atoi(gtk_label_get_text(sum));
-	num -= 1;
+	num -= 6;
 	g_print("Я взял 6 спичек\n Осталось %i спичек\n Твой ход\n",num);
 	bool Correct;
 	srand(time(0));
@@ -130,7 +130,7 @@ void button6 (GtkButton *button, GtkLabel *sum)
 void button7 (GtkButton *button, GtkLabel *sum)
 {
 	int num = atoi(gtk_label_get_text(sum));
-	num -= 1;
+	num -= 7;
 	g_print("Я взял 7 спичек\n Осталось %i спичек\n Твой ход\n",num);
 	bool Correct;
 	srand(time(0));
@@ -149,7 +149,7 @@ void button7 (GtkButton *button, GtkLabel *sum)
 void button8 (GtkButton *button, GtkLabel *sum)
 {
 	int num = atoi(gtk_label_get_text(sum));
-	num -= 1;
+	num -= 8;
 	g_print("Я взял 8 спичку\n Осталось %i спичек\n Твой ход\n",num);
 	bool Correct;
 	srand(time(0));
@@ -168,7 +168,7 @@ void button8 (GtkButton *button, GtkLabel *sum)
 void button9 (GtkButton *button, GtkLabel *sum)
 {
 	int num = atoi(gtk_label_get_text(sum));
-	num -= 1;
+	num -= 9;
 	g_print("Я взял 9 спичек\n Осталось %i спичек\n Твой ход\n",num);
 	bool Correct;
 	srand(time(0));
@@ -187,7 +187,7 @@ void button9 (GtkButton *button, GtkLabel *sum)
 void button10 (GtkButton *button, GtkLabel *sum)
 {
 	int num = atoi(gtk_label_get_text(sum));
-	num -= 1;
+	num -= 10;
 	g_print("Я взял 10 спичек\n Осталось %i спичек\n Твой ход\n",num);
 	bool Correct;
 	srand(time(0));
