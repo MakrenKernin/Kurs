@@ -150,7 +150,7 @@ void button8 (GtkButton *button, GtkLabel *sum)
 {
 int num = atoi(gtk_label_get_text(sum));
 num -= 1;
-g_print("Я взял 8 спичку\n Осталось %i спичек\n Твой ход\n",num);
+g_print("Я взял 8 спичек\n Осталось %i спичек\n Твой ход\n",num);
 bool Correct;
 srand(time(0));
 int count;
