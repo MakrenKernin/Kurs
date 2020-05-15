@@ -150,7 +150,7 @@ void button8 (GtkButton *button, GtkLabel *sum)
 {
 	int num = atoi(gtk_label_get_text(sum));
 	num -= 8;
-	g_print("Я взял 8 спичку\n Осталось %i спичек\n Твой ход\n",num);
+	g_print("Я взял 8 спичек\n Осталось %i спичек\n Твой ход\n",num);
 	bool Correct;
 	srand(time(0));
 	int count;
@@ -276,26 +276,15 @@ int main(int argc, char **argv)
 	g_signal_connect(G_OBJECT(window), "destroy", G_CALLBACK(gtk_main_quit), NULL);
 
 	g_signal_connect(G_OBJECT(one), "clicked", G_CALLBACK(button1), sum);
-	//g_signal_connect(G_OBJECT(one), "clicked", G_CALLBACK(but1), sum);
 	g_signal_connect(G_OBJECT(two), "clicked", G_CALLBACK(button2), sum);
-	//g_signal_connect(G_OBJECT(two), "clicked", G_CALLBACK(but2), sum);
 	g_signal_connect(G_OBJECT(three), "clicked", G_CALLBACK(button3), sum);
-	//g_signal_connect(G_OBJECT(three), "clicked", G_CALLBACK(but3), sum);
 	g_signal_connect(G_OBJECT(four), "clicked", G_CALLBACK(button4), sum);
-	//g_signal_connect(G_OBJECT(four), "clicked", G_CALLBACK(but4), sum);
-	g_signal_connect(G_OBJECT(five), "clicked", G_CALLBACK(button5), sum);
-	//g_signal_connect(G_OBJECT(five), "clicked", G_CALLBACK(but5), sum);
+        g_signal_connect(G_OBJECT(five), "clicked", G_CALLBACK(button5), sum);
 	g_signal_connect(G_OBJECT(six), "clicked", G_CALLBACK(button6), sum);
-	//g_signal_connect(G_OBJECT(six), "clicked", G_CALLBACK(but6), sum);
 	g_signal_connect(G_OBJECT(seven), "clicked", G_CALLBACK(button7), sum);
-	//g_signal_connect(G_OBJECT(seven), "clicked", G_CALLBACK(but7), sum);
 	g_signal_connect(G_OBJECT(eight), "clicked", G_CALLBACK(button8), sum);
-	//g_signal_connect(G_OBJECT(eight), "clicked", G_CALLBACK(but8), sum);
 	g_signal_connect(G_OBJECT(nine), "clicked", G_CALLBACK(button9), sum);
-	//g_signal_connect(G_OBJECT(nine), "clicked", G_CALLBACK(but9), sum);
 	g_signal_connect(G_OBJECT(ten), "clicked", G_CALLBACK(button10), sum);
-
-	//g_signal_connect(G_OBJECT(ten), "clicked", G_CALLBACK(but10), sum);
 
 	gtk_main();
 
